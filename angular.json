@@ -24,7 +24,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "node_modules/font-awesome/css/font-awesome.css"
             ],
             "scripts": []
           },
@@ -119,6 +121,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "SLAScursos"
+    }
+  },
+  "defaultProject": "SLAScursos",
+  "cli": {
+    "analytics": "2cdaa2c5-b088-4bc1-a6da-ec03886056de"
+  }
 }

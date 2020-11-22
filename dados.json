@@ -1,0 +1,79 @@
+{
+  "Exercicio": [
+    {
+      "id": 1,
+      "Aula": 1,
+      "Aluno": "json-server",
+      "resposta": "typicode"
+    },
+    {
+      "id": 2,
+      "Aula": 1,
+      "Aluno": "json-server",
+      "resposta": "typicode"
+    }
+  ],
+  "Aula": [
+    {
+      "id": 1,
+      "titulo": "O que é variável?",
+      "duracao": "1 hora",
+      "curso": 1
+    },
+    {
+      "titulo": "bbbbbbbb",
+      "duracao": 2,
+      "id": 2
+    },
+    {
+      "titulo": "bbbbbbbb",
+      "duracao": 3,
+      "curso": 1,
+      "id": 3
+    },
+    {
+      "titulo": "bbbbbbbb",
+      "duracao": 2,
+      "curso": 2,
+      "id": 4
+    }
+  ],
+  "Aluno": [
+    {
+      "id": 1,
+      "CPF": "1122334455",
+      "nome": "Stefan",
+      "nascimento": "14/03/1997"
+    },
+    {
+      "id": 2,
+      "CPF": "5544332211",
+      "nome": "Lucas",
+      "nascimento": "14/03/1997"
+    }
+  ],
+  "Curso": [
+    {
+      "id": 1,
+      "titulo": "Logica de Programação",
+      "descricao": "Logica e estrutura para entendimento de algoritmos",
+      "categoria": "Tecnologia"
+    },
+    {
+      "id": 2,
+      "titulo": "Desenho - estilo mangá",
+      "descricao": "Todas as tecnicas para aprender o estilo mangá",
+      "categoria": "Artes",
+      "aulas": [
+        2
+      ]
+    }
+  ],
+  "Matricula": [
+    {
+      "id": 1,
+      "aluno": 1,
+      "curso": 1
+    }
+  ]
+}

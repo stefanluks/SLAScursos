@@ -1,0 +1,35 @@
+
+
+<div class="container-fluid alert alert-info">
+    <h2 class="alert alert-danger" style="text-align: center;">Cursos de Tecnologia</h2>
+    <div class="row">
+        <div *ngFor="let curso of listaDeCursos">
+            <div class="col-sm" *ngIf="curso.categoria == 'Tecnologia'">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">{{curso.titulo}}</h5>
+                        <p class="card-text">{{curso.descricao}}</p>
+                        <a RouterLink="" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid alert alert-info">
+    <h2 class="alert alert-danger" style="text-align: center;">Cursos de Artes</h2>
+    <div class="row">
+        <div *ngFor="let curso of listaDeCursos" >
+            <div class="col-sm" *ngIf="curso.categoria == 'Artes'">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">{{curso.titulo}}</h5>
+                        <p class="card-text">{{curso.descricao}}</p>
+                        <a RouterLink="" class="btn btn-primary">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
